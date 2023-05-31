@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import json
+#import json
 
 
 response = requests.get("http://api.open-notify.org/astros.json")

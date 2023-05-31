@@ -10,8 +10,6 @@ COPY app/requirements.txt .
 # Install the Python dependencies
 RUN pip install -r requirements.txt
 
-# Add any necessary system dependencies (if required)
-
 # Copy the application code to the Docker image
 COPY app .
 
